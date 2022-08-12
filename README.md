@@ -41,7 +41,7 @@ pip install -e .
 
 If successful installed all required packages, you can run the following command to test your own dataset.
 
-5. Download the packed model file from XXX, unpack it and put in the directory "~/ISLES22_SEALS/data/nnUNet_trained_models".
+5. Put pretrain model in the directory "~/ISLES22_SEALS/data/nnUNet_trained_models".
 
 6. Convert your dwi and adc image to mha format.
 
