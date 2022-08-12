@@ -47,7 +47,7 @@ If successful installed all required packages, you can run the following command
 
 7. Put your dwi and adc data in `/input/images/dwi-brain-mri/` and `/input/images/adc-brain-mri/` folder respectively.
 
-8. Run the following command to reproduce the results.
+8. Run the following command to generate the results.
 
 ```shell
 bash nnunet_launcher.sh
