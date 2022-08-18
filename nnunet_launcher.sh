@@ -101,8 +101,8 @@ model_4=test_result_recover/preliminary_phase/fold4
 python -m ensemble_predictions -f $model_0 \
                                   $model_1 \
                                   $model_2 \
+                                  $model_3 \
                                   $model_4 \
-                                  $model_5 \
                                 -o test_ensemble/ \
                                 --npz
 
