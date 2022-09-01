@@ -14,7 +14,7 @@ We will provide the installation instruction of this repo.
 
 If you do not want to install conda, please skip to the step 3.(We do not recommend to install nnUNet straightly.)
 
-1. Let us hypothesize you are using conda environment named "nnunet", activate conda environment "nnunet"
+1. Let us hypothesis you are using conda environment named "nnunet", activate conda environment "nnunet"
 
 ```bash
 conda activate nnunet
@@ -43,9 +43,9 @@ pip install -e .
 If successfully installed all required packages, you can run the following command to test your own dataset(You may need to install SimpleITK version under 2.0.2 to avoid some unpredictable errors).
 
 5. Download zip file of our models from [Google Drive](https://drive.google.com/file/d/193l7WTcedo-yvqH4MvIzmIyPpECMdKXQ/view?usp=sharing) and unzip it.
-6. Put the "nnUNet_trained_models" folder you've got into the directory "~/ISLES22_SEALS/data/".
+6. Put the "nnUNet_trained_models" folder you've got into the directory `~/ISLES22_SEALS/data/`.
 7. Convert your dwi and adc image to mha format (Do not forget metadata)
-8. Put your dwi and adc data into `/input/images/dwi-brain-mri/` and `/input/images/adc-brain-mri/` folder respectively. Or you may modify the raw_data_diro in "/ISLES22_SEALS/nnunet/dataset_conversion/Task500_Ischemic_Stroke_Test.py"
+8. Put your dwi and adc data into `/input/images/dwi-brain-mri/` and `/input/images/adc-brain-mri/` folder respectively. Or you may modify the raw_data_diro in `~/ISLES22_SEALS/nnunet/dataset_conversion/Task500_Ischemic_Stroke_Test.py`
 9. Run the following command to generate the results.
 
 ```shell
