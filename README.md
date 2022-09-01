@@ -29,6 +29,7 @@ conda install pytorch==1.11.0 torchvision==0.12.0 torchaudio==0.11.0 cudatoolkit
 3. Clone this repository.
 
 ```bash
+cd ~
 git clone https://github.com/Tabrisrei/ISLES22_SEALS.git
 ```
 
@@ -39,15 +40,17 @@ cd ISLES22_SEALS
 pip install -e .
 ```
 
-If successful installed all required packages, you can run the following command to test your own dataset.
+If successfully installed all required packages, you can run the following command to test your own dataset(You may need to install SimpleITK version under 2.0.2 to avoid some unpredictable errors).
 
-5. Put pretrain model in the directory "~/ISLES22_SEALS/data/nnUNet_trained_models".
+5. Download zip file of our models from [Google Drive](https://drive.google.com/file/d/193l7WTcedo-yvqH4MvIzmIyPpECMdKXQ/view?usp=sharing) and unzip it.
 
-6. Convert your dwi and adc image to mha format.
+6. Put the "nnUNet_trained_models" folder you've got into the directory "~/ISLES22_SEALS/data/".
 
-7. Put your dwi and adc data in `/input/images/dwi-brain-mri/` and `/input/images/adc-brain-mri/` folder respectively.
+7. Convert your dwi and adc image to mha format(Do not forget metadata.).
 
-8. Run the following command to generate the results.
+8. Put your dwi and adc data into `/input/images/dwi-brain-mri/` and `/input/images/adc-brain-mri/` folder respectively.
+
+9. Run the following command to generate the results.
 
 ```shell
 bash nnunet_launcher.sh
