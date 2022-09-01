@@ -6,7 +6,7 @@ This is the repository of team SEALS submission for ISLES22 competition.
 
 ## Installation
 
-This repository is based on nnUNet. Please follow the installation instruction of nnUNet. 
+This repository is based on nnUNet. Please follow the installation instruction of nnUNet.
 We recommend to install conda environment before installing this repository.
 We will provide the installation instruction of this repo.
 
@@ -43,13 +43,9 @@ pip install -e .
 If successfully installed all required packages, you can run the following command to test your own dataset(You may need to install SimpleITK version under 2.0.2 to avoid some unpredictable errors).
 
 5. Download zip file of our models from [Google Drive](https://drive.google.com/file/d/193l7WTcedo-yvqH4MvIzmIyPpECMdKXQ/view?usp=sharing) and unzip it.
-
 6. Put the "nnUNet_trained_models" folder you've got into the directory "~/ISLES22_SEALS/data/".
-
-7. Convert your dwi and adc image to mha format(Do not forget metadata.).
-
-8. Put your dwi and adc data into `/input/images/dwi-brain-mri/` and `/input/images/adc-brain-mri/` folder respectively.
-
+7. Convert your dwi and adc image to mha format (Do not forget metadata)
+8. Put your dwi and adc data into `/input/images/dwi-brain-mri/` and `/input/images/adc-brain-mri/` folder respectively. Or you may modify the raw_data_diro in "/ISLES22_SEALS/nnunet/dataset_conversion/Task500_Ischemic_Stroke_Test.py"
 9. Run the following command to generate the results.
 
 ```shell
