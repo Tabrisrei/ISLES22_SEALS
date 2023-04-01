@@ -40,6 +40,14 @@ cd ISLES22_SEALS
 pip install -e .
 ```
 
+5. Maybe you can check if successfully installed required package version. (nnunet installation process did not strictly determine the package version, which may raise some unpredictable error.)
+
+```bash
+cd ISLES22_SEALS
+pip install -r requirements.txt
+```
+
+
 If successfully installed all required packages, you can run the following command to test your own dataset(You may need to install SimpleITK version under 2.0.2 to avoid some unpredictable errors).
 
 5. Download zip file of our models from [Google Drive](https://drive.google.com/file/d/193l7WTcedo-yvqH4MvIzmIyPpECMdKXQ/view?usp=sharing) and unzip it.
@@ -62,3 +70,4 @@ Please contact gtabris@buaa.edu.cn
 
 - This code is adapted from [nnUNet](https://github.com/MIC-DKFZ/nnUNet)
 - We thank Dr. Fabian Isensee etc. for their elegant and efficient code base.
+- We thank Dr. Ezequiel etc. for their prompt and courteous assistance.
