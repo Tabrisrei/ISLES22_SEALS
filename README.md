@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This is the repository of team SEALS submission for ISLES22 competition.
+This is the repository of Top1 team SEALS submission for MICCAI ISLES22 competition.
 
 ## Installation
 
